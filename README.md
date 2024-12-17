@@ -1,0 +1,1 @@
+This repository demonstrates a common integer overflow vulnerability in Solidity smart contracts. The `balanceOf` function, as implemented in `balanceOfBug.sol`, is vulnerable because it does not check for potential overflows when adding to the balance. The solution, in `balanceOfSolution.sol`, demonstrates how to use SafeMath to prevent such issues.
